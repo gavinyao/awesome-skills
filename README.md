@@ -32,8 +32,8 @@ Then install any skill from the registry:
 | Skill | Description |
 |-------|-------------|
 | [skill-registry](https://git.woa.com/qq-devops/agent-skills) | 管理和安装 Claude Code skills，支持订阅、本地注册表、远程安装 |
-| [qywx-msg-sender](https://git.woa.com/qq-devops/agent-skills) | 企业微信群机器人消息推送，支持文本、Markdown、图片、文件 |
-| [longbridge-trader](https://github.com/gavinyao/longbridge-trader) | 长桥交易助手 — 实时行情、K 线、盘口查询，订单管理，账户持仓 |
+| [qywx-msg-sender](https://github.com/gavinyao/qywx-msg-sender) | 企业微信群机器人消息推送，支持文本、Markdown、图片、文件 |
+| [longbridge-trader](https://clawhub.ai/gavinyao/longbridge-trader) | 长桥交易助手 — 实时行情、K 线、盘口查询，订单管理，账户持仓 |
 
 ### Official & Core
 
@@ -73,6 +73,12 @@ Then install any skill from the registry:
 |-------|-------------|----------|
 | agent-tools | Toolkit for building and extending AI agent capabilities | 74K |
 | docker | Docker container management — build, run, compose, debug | 404 |
+
+### ClawHub 社区
+
+| Skill | Description | Installs |
+|-------|-------------|----------|
+| [vassili-clawhub-cli](https://clawhub.ai/vassiliylakhonin/vassili-clawhub-cli) | ClawHub CLI 使用助手 — 提供发布、安装、更新、同步等命令模板和排错指南 | 22 |
 
 ## Contributing
 

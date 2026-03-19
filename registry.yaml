@@ -17,16 +17,15 @@ skills:
     description: 企业微信群机器人消息推送，支持文本、Markdown、图片、文件
     source:
       type: git
-      url: https://git.woa.com/qq-devops/agent-skills.git
-      path: qywx-msg-sender
+      url: https://github.com/gavinyao/qywx-msg-sender.git
     category: self-built
     tags: [messaging, wecom, webhook]
 
   - name: longbridge-trader
     description: 长桥交易助手 — 实时行情、K 线、盘口查询，订单管理，账户持仓
     source:
-      type: git
-      url: https://github.com/gavinyao/longbridge-trader.git
+      type: clawhub
+      slug: gavinyao/longbridge-trader
     category: self-built
     tags: [trading, stock, finance]
 
@@ -159,3 +158,13 @@ skills:
     category: agent-tools
     tags: [docker, container, devops]
     installs: 404
+
+  # ── ClawHub 社区 ───────────────────────────────────────────────────
+  - name: vassili-clawhub-cli
+    description: ClawHub CLI 使用助手 — 提供发布、安装、更新、同步等 ClawHub 命令的模板和排错指南
+    source:
+      type: clawhub
+      slug: vassiliylakhonin/vassili-clawhub-cli
+    category: clawhub-community
+    tags: [clawhub, cli, reference]
+    installs: 22
