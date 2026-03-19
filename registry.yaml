@@ -8,8 +8,7 @@ skills:
     description: 管理和安装 Claude Code skills 的工具，支持订阅、本地注册表、远程安装
     source:
       type: git
-      url: https://git.woa.com/qq-devops/agent-skills.git
-      path: skill-registry
+      url: https://github.com/gavinyao/skill-registry-manager.git
     category: self-built
     tags: [registry, management, subscription]
 
