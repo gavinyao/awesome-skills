@@ -1,0 +1,161 @@
+# Awesome Claude Code Skills Registry
+# Subscribe: add this URL to your skill-registry subscriptions
+# https://raw.githubusercontent.com/gavinyao/awesome-skills/main/registry.yaml
+
+skills:
+  # ── Self-built (gavinyao) ──────────────────────────────────────────
+  - name: skill-registry
+    description: 管理和安装 Claude Code skills 的工具，支持订阅、本地注册表、远程安装
+    source:
+      type: git
+      url: https://git.woa.com/qq-devops/agent-skills.git
+      path: skill-registry
+    category: self-built
+    tags: [registry, management, subscription]
+
+  - name: qywx-msg-sender
+    description: 企业微信群机器人消息推送，支持文本、Markdown、图片、文件
+    source:
+      type: git
+      url: https://git.woa.com/qq-devops/agent-skills.git
+      path: qywx-msg-sender
+    category: self-built
+    tags: [messaging, wecom, webhook]
+
+  - name: longbridge-trader
+    description: 长桥交易助手 — 实时行情、K 线、盘口查询，订单管理，账户持仓
+    source:
+      type: git
+      url: https://github.com/gavinyao/longbridge-trader.git
+    category: self-built
+    tags: [trading, stock, finance]
+
+  # ── Official & Core ────────────────────────────────────────────────
+  - name: skill-creator
+    description: Create, modify, improve, and benchmark Claude Code skills
+    source:
+      type: npx
+      package: "@anthropic-ai/skill-creator@latest"
+    category: official
+    tags: [skill, create, eval]
+    installs: 225000
+
+  - name: find-skills
+    description: Discover and install agent skills from the ecosystem
+    source:
+      type: npx
+      package: "@anthropic-ai/find-skills@latest"
+    category: official
+    tags: [skill, discovery, search]
+
+  - name: agent-browser
+    description: Browser automation CLI for AI agents — navigate, click, fill forms, screenshot
+    source:
+      type: npx
+      package: "@anthropic-ai/agent-browser@latest"
+    category: official
+    tags: [browser, automation, testing]
+    installs: 111000
+
+  - name: webapp-testing
+    description: End-to-end web application testing with browser automation
+    source:
+      type: npx
+      package: "@anthropic-ai/webapp-testing@latest"
+    category: official
+    tags: [testing, web, e2e]
+    installs: 27000
+
+  # ── Code Review ────────────────────────────────────────────────────
+  - name: requesting-code-review
+    description: Request and manage code reviews with structured feedback
+    source:
+      type: npx
+      package: "@anthropic-ai/requesting-code-review@latest"
+    category: code-review
+    tags: [review, pr, quality]
+    installs: 26000
+
+  - name: receiving-code-review
+    description: Receive and address code review feedback effectively
+    source:
+      type: npx
+      package: "@anthropic-ai/receiving-code-review@latest"
+    category: code-review
+    tags: [review, pr, quality]
+    installs: 20000
+
+  - name: code-review
+    description: General-purpose code review with best practices enforcement
+    source:
+      type: npx
+      package: "@anthropic-ai/code-review@latest"
+    category: code-review
+    tags: [review, quality]
+    installs: 11000
+
+  # ── Best Practices ─────────────────────────────────────────────────
+  - name: vercel-react-best-practices
+    description: React best practices — hooks, components, state management, performance
+    source:
+      type: npx
+      package: "@anthropic-ai/vercel-react-best-practices@latest"
+    category: best-practices
+    tags: [react, frontend, vercel]
+    installs: 225000
+
+  - name: next-best-practices
+    description: Next.js best practices — App Router, SSR, ISR, middleware patterns
+    source:
+      type: npx
+      package: "@anthropic-ai/next-best-practices@latest"
+    category: best-practices
+    tags: [nextjs, frontend, ssr]
+    installs: 38000
+
+  - name: supabase-postgres-best-practices
+    description: Supabase & PostgreSQL best practices — schema, RLS, queries, migrations
+    source:
+      type: npx
+      package: "@anthropic-ai/supabase-postgres-best-practices@latest"
+    category: best-practices
+    tags: [supabase, postgres, database]
+    installs: 39000
+
+  # ── Testing ────────────────────────────────────────────────────────
+  - name: backend-testing
+    description: Backend testing strategies — unit, integration, API, database tests
+    source:
+      type: npx
+      package: "@anthropic-ai/backend-testing@latest"
+    category: testing
+    tags: [testing, backend, api]
+    installs: 11000
+
+  - name: testing-strategies
+    description: Comprehensive testing strategies — TDD, BDD, coverage, mocking
+    source:
+      type: npx
+      package: "@anthropic-ai/testing-strategies@latest"
+    category: testing
+    tags: [testing, strategy, tdd]
+    installs: 10000
+
+  # ── Agent & Tools ──────────────────────────────────────────────────
+  - name: agent-tools
+    description: Toolkit for building and extending AI agent capabilities
+    source:
+      type: npx
+      package: "@anthropic-ai/agent-tools@latest"
+    category: agent-tools
+    tags: [agent, tools, framework]
+    installs: 74000
+
+  - name: docker
+    description: Docker container management — build, run, compose, debug
+    source:
+      type: npx
+      package: "@anthropic-ai/docker@latest"
+    category: agent-tools
+    tags: [docker, container, devops]
+    installs: 404
