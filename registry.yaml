@@ -23,8 +23,8 @@ skills:
   - name: longbridge-trader
     description: 长桥交易助手 — 实时行情、K 线、盘口查询，订单管理，账户持仓
     source:
-      type: clawhub
-      slug: gavinyao/longbridge-trader
+      type: git
+      url: https://github.com/gavinyao/longbridge-trader.git
     category: self-built
     tags: [trading, stock, finance]
 
