@@ -4,14 +4,14 @@ A curated registry of Claude Code skills — subscribe once, get all recommended
 
 ## Quick Subscribe
 
-If you have [skill-registry](https://github.com/gavinyao/awesome-skills) installed, add this subscription:
+If you have [skill-registry-manager](https://github.com/gavinyao/skill-registry-manager) installed, add this subscription:
 
 ```bash
-# Via skill-registry command
-/skill-registry add-subscription awesome https://raw.githubusercontent.com/gavinyao/awesome-skills/main/registry.yaml
+# Via skill-registry-manager command
+/skill-registry-manager add-subscription awesome https://raw.githubusercontent.com/gavinyao/awesome-skills/main/registry.yaml
 ```
 
-Or manually edit `~/.claude/skills/skill-registry/registry.yaml`:
+Or manually edit `~/.claude/skills/skill-registry-manager/registry.yaml`:
 
 ```yaml
 subscriptions:
@@ -22,7 +22,7 @@ subscriptions:
 Then install any skill from the registry:
 
 ```bash
-/skill-registry install <skill-name>
+/skill-registry-manager install <skill-name>
 ```
 
 ## Skills
@@ -31,7 +31,7 @@ Then install any skill from the registry:
 
 | Skill | Description |
 |-------|-------------|
-| [skill-registry](https://git.woa.com/qq-devops/agent-skills) | 管理和安装 Claude Code skills，支持订阅、本地注册表、远程安装 |
+| [skill-registry-manager](https://git.woa.com/qq-devops/agent-skills) | 管理和安装 Claude Code skills，支持订阅、本地注册表、远程安装 |
 | [qywx-msg-sender](https://github.com/gavinyao/qywx-msg-sender) | 企业微信群机器人消息推送，支持文本、Markdown、图片、文件 |
 | [longbridge-trader](https://clawhub.ai/gavinyao/longbridge-trader) | 长桥交易助手 — 实时行情、K 线、盘口查询，订单管理，账户持仓 |
 
