@@ -21,7 +21,7 @@ skills:
     tags: [messaging, wecom, webhook]
 
   - name: longbridge-trader
-    description: 长桥交易助手 — 实时行情、K 线、盘口查询，订单管理，账户持仓
+    description: 长桥交易助手 - 实时行情、K 线、盘口查询，订单管理，账户持仓
     source:
       type: git
       url: https://github.com/gavinyao/longbridge-trader.git
@@ -33,7 +33,7 @@ skills:
     description: Create, modify, improve, and benchmark Claude Code skills
     source:
       type: npx
-      package: "@anthropic-ai/skill-creator@latest"
+      package: "anthropics/skills@skill-creator"
     category: official
     tags: [skill, create, eval]
     installs: 225000
@@ -42,12 +42,12 @@ skills:
     description: Discover and install agent skills from the ecosystem
     source:
       type: npx
-      package: "@anthropic-ai/find-skills@latest"
+      package: "vercel-labs/skills@find-skills"
     category: official
     tags: [skill, discovery, search]
 
   - name: agent-browser
-    description: Browser automation CLI for AI agents — navigate, click, fill forms, screenshot
+    description: Browser automation CLI for AI agents - navigate, click, fill forms, screenshot
     source:
       type: npx
       package: "@anthropic-ai/agent-browser@latest"
@@ -94,7 +94,7 @@ skills:
 
   # ── Best Practices ─────────────────────────────────────────────────
   - name: vercel-react-best-practices
-    description: React best practices — hooks, components, state management, performance
+    description: React best practices - hooks, components, state management, performance
     source:
       type: npx
       package: "@anthropic-ai/vercel-react-best-practices@latest"
@@ -103,7 +103,7 @@ skills:
     installs: 225000
 
   - name: next-best-practices
-    description: Next.js best practices — App Router, SSR, ISR, middleware patterns
+    description: Next.js best practices - App Router, SSR, ISR, middleware patterns
     source:
       type: npx
       package: "@anthropic-ai/next-best-practices@latest"
@@ -112,7 +112,7 @@ skills:
     installs: 38000
 
   - name: supabase-postgres-best-practices
-    description: Supabase & PostgreSQL best practices — schema, RLS, queries, migrations
+    description: Supabase & PostgreSQL best practices - schema, RLS, queries, migrations
     source:
       type: npx
       package: "@anthropic-ai/supabase-postgres-best-practices@latest"
@@ -122,7 +122,7 @@ skills:
 
   # ── Testing ────────────────────────────────────────────────────────
   - name: backend-testing
-    description: Backend testing strategies — unit, integration, API, database tests
+    description: Backend testing strategies - unit, integration, API, database tests
     source:
       type: npx
       package: "@anthropic-ai/backend-testing@latest"
@@ -131,7 +131,7 @@ skills:
     installs: 11000
 
   - name: testing-strategies
-    description: Comprehensive testing strategies — TDD, BDD, coverage, mocking
+    description: Comprehensive testing strategies - TDD, BDD, coverage, mocking
     source:
       type: npx
       package: "@anthropic-ai/testing-strategies@latest"
@@ -150,7 +150,7 @@ skills:
     installs: 74000
 
   - name: docker
-    description: Docker container management — build, run, compose, debug
+    description: Docker container management - build, run, compose, debug
     source:
       type: npx
       package: "@anthropic-ai/docker@latest"
@@ -158,9 +158,20 @@ skills:
     tags: [docker, container, devops]
     installs: 404
 
+  - name: x-twitter-scraper
+    description: >-
+      Search and analyze X data through Xquik REST and MCP. Xquik is an
+      independent third-party service. Not affiliated with X Corp. "Twitter"
+      and "X" are trademarks of X Corp.
+    source:
+      type: npx
+      package: "https://github.com/Xquik-dev/x-twitter-scraper/tree/v2.5.3"
+    category: agent-tools
+    tags: [x, twitter, research, mcp]
+
   # ── ClawHub 社区 ───────────────────────────────────────────────────
   - name: vassili-clawhub-cli
-    description: ClawHub CLI 使用助手 — 提供发布、安装、更新、同步等 ClawHub 命令的模板和排错指南
+    description: ClawHub CLI 使用助手 - 提供发布、安装、更新、同步等 ClawHub 命令的模板和排错指南
     source:
       type: clawhub
       slug: vassiliylakhonin/vassili-clawhub-cli
